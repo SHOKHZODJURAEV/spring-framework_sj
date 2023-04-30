@@ -1,4 +1,4 @@
-package dono.daryo.repository0;
+package dono.daryo.repository;
 
 import dono.daryo.model.Comment;
 import org.springframework.stereotype.Component;

@@ -3,7 +3,7 @@ package dono.daryo.service;
 import dono.daryo.model.Comment;
 import dono.daryo.proxy.CommentNotificationProxy;
 //import dono.daryo.repository.CommentRepository;
-import dono.daryo.repository0.CommentRepository;
+import dono.daryo.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
