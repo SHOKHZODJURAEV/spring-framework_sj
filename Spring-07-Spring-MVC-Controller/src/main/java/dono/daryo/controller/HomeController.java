@@ -17,7 +17,7 @@ public class HomeController {
         return "welcome.html";
     }
 
-    @RequestMapping()
+    @RequestMapping() // by default it is looking for html file under static folder
     public String testDefault(){
         return "welcome.html";
     }
