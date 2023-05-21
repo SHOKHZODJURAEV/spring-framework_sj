@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1</title>
+</head>
+<body>
+
+<ul>
+    <li th:each="mentor : ${mentors}" th:text="${mentor.firstName}"></li>
+</ul>
+
+
+</body>
+</html>
