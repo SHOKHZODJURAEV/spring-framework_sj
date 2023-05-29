@@ -22,7 +22,7 @@ public class StudentController {
     }
     @RequestMapping("/welcome")
     public String info(){
-        return "student/welcome";
+        return "1";
     }
 
     @RequestMapping("/list")
